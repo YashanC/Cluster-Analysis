@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors
 from sklearn.manifold import TSNE
 
-f = gzip.open('C:\Users\User\Documents\Programming Project Folders\Machine Learning MNIST\mnist.pkl.gz')
+f = gzip.open('mnist.pkl.gz')
 training,validation,test = cPickle.load(f)
 f.close()
 
